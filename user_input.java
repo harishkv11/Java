@@ -15,5 +15,7 @@ public class user_input {
         System.out.print("Enter your last name : ");
         String lastName = scanner.nextLine();
         System.out.println("Your last name is "+lastName);
+
+        scanner.close();
     }
 }
